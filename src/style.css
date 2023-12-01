@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Nexa Light';
+  src: url(../src/assets/nexa-light.otf) format('opentype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  text-transform: uppercase;
+  color: #222;
+}
+
+li:hover {
+  color: #015EB8;
+}
+
+div#content {
+  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.65) 0%, rgba(34, 34, 34, 0) 50%, rgba(34, 34, 34, 0) 100%), url(assets/backgroundmain.avif);
+  background-position: center;
+  background-size: cover;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Nexa Light';
+  font-weight: 700;
+  font-size: 0.9rem;
+
+  & header {
+    height: 20%;
+
+    & img {
+      height: 100%;
+      padding: 1rem;
+    }
+  }
+
+  & footer {
+    height: 10%;
+    background-color: #F4F5F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & menu {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+    }
+  }
+}
