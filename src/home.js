@@ -1,8 +1,8 @@
 import Logo from './assets/logo.png';
-import './style.css';
 
 export default function createHome() {
     const div = document.createElement('div');
+    div.classList.add('home');
 
     const header = document.createElement('header');
     const img = document.createElement('img');

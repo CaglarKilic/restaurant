@@ -1,4 +1,5 @@
 import createHome from "./home";
+import '../src/style.css'
 
 //initialize page and return root for further page loading.
 const root = (function () {

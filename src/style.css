@@ -194,6 +194,6 @@ div#content>div.menus {
   }
 }
 
-div#content:has(>:not(div.menus)) {
+/* div#content:has(>:not(div.menus)) {
   display: none;
-}
+} */
