@@ -7,6 +7,7 @@ export default function createHome() {
     const header = document.createElement('header');
     const img = document.createElement('img');
     img.src = Logo;
+    img.setAttribute('data-page-index', 0);
     
     const footer = document.createElement('footer');
     const nav = document.createElement('nav');
