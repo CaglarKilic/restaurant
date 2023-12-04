@@ -196,6 +196,10 @@ div#content>div.menus {
       grid-column: 3;
     }
   }
+
+  & footer li:nth-child(1) {
+    color: #015EB8;
+  }
 }
 
 /* div#content:has(>:not(div.menus)) {
