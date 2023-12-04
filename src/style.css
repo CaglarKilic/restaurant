@@ -46,7 +46,7 @@ div#content>div {
     justify-content: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     opacity: 0.9;
     backdrop-filter: blur(3px);
 
@@ -115,6 +115,10 @@ div#content>div.about {
       font-size: 1rem;
       font-weight: normal;
     }
+  }
+
+  & li:nth-child(2) {
+    color: #015EB8;
   }
 }
 

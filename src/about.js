@@ -36,10 +36,12 @@ export default function createAbout() {
     const li1 = document.createElement('li');
     const li2 = document.createElement('li');
     const li3 = document.createElement('li');
-    menu.append(l1, l2, l3)
+    menu.append(li1, li2, li3);
     li1.append('menus');
     li2.append('about');
     li3.append('contact');
 
     div.append(header, sectionHero, sectionAbout, footer)
+
+    return div;
 }
